@@ -1,0 +1,12 @@
+<mujoco>
+    <worldbody>
+        <geom type="plane" size="10 10 0.1" pos="0 0 -0.5" rgba="1 0 0 1"/>
+        <light diffuse="0.7 0.7 0.7" pos="0 0 3"/>
+
+        <body>
+            <geom type="box" size="0.075 0.03 0.015"/>
+            <joint>
+
+        </body>
+    </worldbody>
+</mujoco>
