@@ -12,7 +12,7 @@ qpos = []
 
 with mujoco.viewer.launch_passive(model, data) as viewer:
     start = time.time()
-    while viewer.is_running() and time.time() - start < 0.01:
+    while viewer.is_running() and time.time() - start < 10:
         step_start = time.time()
         data.qvel = 0
         for i in range(-120, 0, 2):
